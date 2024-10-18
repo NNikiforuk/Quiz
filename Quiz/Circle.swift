@@ -5,14 +5,14 @@
 //  Created by Natalia Nikiforuk on 18/10/2024.
 //
 
-import SwiftUI
+import Foundation
 
-struct Circle: View {
+struct Circle {
+    var number: Int
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Circle()
+            .strokeBorder(Color.blue,lineWidth: 4)
+            .background(Circle().foregroundColor(Color.red))
     }
-}
-
-#Preview {
-    Circle()
 }
