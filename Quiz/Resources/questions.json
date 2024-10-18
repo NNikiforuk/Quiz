@@ -1,42 +1,63 @@
 [
-	{
-		"question": "dog",
-		"answer": "perro"
-	},
-	{
-		"question": "house",
-		"answer": "casa"
-	},
-	{
-		"question": "car",
-		"answer": "coche"
-	},
-	{
-		"question": "book",
-		"answer": "libro"
-	},
-	{
-		"question": "water",
-		"answer": "agua"
-	},
-	{
-		"question": "table",
-		"answer": "mesa"
-	},
-	{
-		"question": "chair",
-		"answer": "silla"
-	},
-	{
-		"question": "apple",
-		"answer": "manzana"
-	},
-	{
-		"question": "school",
-		"answer": "escuela"
-	},
-	{
-		"question": "city",
-		"answer": "ciudad"
-	}
+    {
+        "question": "dog",
+        "answer": "perro",
+        "answers": ["gato", "caballo", "perro"],
+        "imageName": "dog"
+    },
+    {
+        "question": "house",
+        "answer": "casa",
+        "answers": ["escuela", "casa", "biblioteca"],
+        "imageName": "house"
+    },
+    {
+        "question": "car",
+        "answer": "coche",
+        "answers": ["coche", "avión", "tren"],
+        "imageName": "car"
+    },
+    {
+        "question": "book",
+        "answer": "libro",
+        "answers": ["revista", "diario", "libro"],
+        "imageName": "book"
+    },
+    {
+        "question": "water",
+        "answer": "agua",
+        "answers": ["fuego", "agua", "tierra"],
+        "imageName": "water"
+    },
+    {
+        "question": "table",
+        "answer": "mesa",
+        "answers": ["mesa", "silla", "puerta"],
+        "imageName": "table"
+    },
+    {
+        "question": "chair",
+        "answer": "silla",
+        "answers": ["silla", "mesa", "ventana"],
+        "imageName": "chair"
+    },
+    {
+        "question": "apple",
+        "answer": "manzana",
+        "answers": ["plátano", "pera", "manzana"],
+        "imageName": "apple"
+    },
+    {
+        "question": "school",
+        "answer": "escuela",
+        "answers": ["hospital", "escuela", "tienda"],
+        "imageName": "school"
+    },
+    {
+        "question": "city",
+        "answer": "ciudad",
+        "answers": ["ciudad", "pueblo", "país"],
+        "imageName": "city"
+    }
 ]
+

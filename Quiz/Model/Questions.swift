@@ -5,14 +5,25 @@
 //  Created by Natalia Nikiforuk on 18/10/2024.
 //
 
+import Foundation
 import SwiftUI
 
-struct Questions: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct Question: Hashable, Codable {
+    var question: String
+    var answer: String
+    var answers: [String]
+    
+    private var imageName: String
+    
+    var image: Image {
+        Image(imageName)
     }
 }
 
-#Preview {
-    Questions()
+struct Questions {
+    var questions: [Question]
 }
+
+
+
+
