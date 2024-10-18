@@ -11,13 +11,23 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                Text("Learn Spanish words")
+                    .font(.title2)
+                    .bold()
                 NavigationLink {
                     QuestionsView()
                 } label: {
-                    Text("Show Detail")
+                    Text("START")
                 }
+                .padding()
+                .background(Color(red: 0.9, green: 0.8, blue: 0.8))
+                .foregroundColor(.black)
+                .cornerRadius(8)
+                .bold()
+                .padding()
+                .accessibilityLabel("Start")
             }
-            .navigationTitle("Learn some Spanish")
+            .navigationTitle("Home")
         }
     }
 }

@@ -22,6 +22,7 @@ struct QuestionsView: View {
                 questions[currentQuestionIndex].image
                     .resizable()
                     .frame(width: 250, height: 250)
+                    .accessibilityLabel(questions[currentQuestionIndex].question)
             }
             HStack {
                 ForEach(questions[currentQuestionIndex].answers, id: \.self) {answer in
@@ -32,6 +33,7 @@ struct QuestionsView: View {
                         .background(Color(red: 0.9, green: 0.8, blue: 0.8))
                         .foregroundColor(.black)
                         .cornerRadius(8)
+                        .accessibilityLabel(answer)
                 }
                 .padding()
             }
@@ -43,7 +45,8 @@ struct QuestionsView: View {
             Button("Retry") {
                 result = 0
                 currentQuestionIndex = 0
-                questionNr = 0
+                questionNr = 1
+                questions.shuffle()
             }
         }
     }
