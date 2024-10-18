@@ -57,7 +57,7 @@ struct QuestionsView: View {
     }
     
     func game(chosenAnswer: String) {
-        if questionNr == 10 {
+        if questionNr == questions.count {
             showAlert = true
         } else {
             if chosenAnswer == questions[currentQuestionIndex].answer {
