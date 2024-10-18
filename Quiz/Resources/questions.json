@@ -1,0 +1,42 @@
+[
+	{
+		"question": "dog",
+		"answer": "perro"
+	},
+	{
+		"question": "house",
+		"answer": "casa"
+	},
+	{
+		"question": "car",
+		"answer": "coche"
+	},
+	{
+		"question": "book",
+		"answer": "libro"
+	},
+	{
+		"question": "water",
+		"answer": "agua"
+	},
+	{
+		"question": "table",
+		"answer": "mesa"
+	},
+	{
+		"question": "chair",
+		"answer": "silla"
+	},
+	{
+		"question": "apple",
+		"answer": "manzana"
+	},
+	{
+		"question": "school",
+		"answer": "escuela"
+	},
+	{
+		"question": "city",
+		"answer": "ciudad"
+	}
+]
